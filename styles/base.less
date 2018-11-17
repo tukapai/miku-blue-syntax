@@ -59,10 +59,10 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @miku_head_phone_pink;
 
   &.syntax--control {
-    color: @purple;
+    color: @miku_head_phone_pink;
   }
 
   &.syntax--operator {
@@ -70,43 +70,43 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @miku_hear_blue;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @miku_light_yellow;
   }
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @miku_head_phone_pink;
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @miku_light_yellow;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @miku_hear_blue-off;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @miku_hear_blue-off;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @miku_hear_green;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: @miku_light_yellow-darken;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@miku_light_yellow-darken, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -115,24 +115,24 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @miku_light_yellow-darken;
   color: @syntax-background-color;
 }
 
 .syntax--string {
-  color: @green;
+  color: @miku_hear_green;
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @miku_hear_blue-off;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @miku_light_yellow;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @miku_light_yellow-darken;
   }
 }
 
@@ -151,89 +151,90 @@ atom-text-editor {
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @blue;
+      color: @miku_hear_blue;
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @miku_light_yellow;
+
       font-weight: bold;
     }
 
     &.syntax--italic {
-      color: @purple;
+      color: @miku_head_phone_pink;
       font-style: italic;
     }
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@miku_light_yellow-darken, 10%);
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @miku_hear_blue-off;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @miku_hear_blue;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @miku_hear_blue;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @miku_light_yellow;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @miku_hear_green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @miku_hear_blue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @miku_light_yellow-darken;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @miku_light_yellow;
 
     &.syntax--id {
-      color: @blue;
+      color: @miku_hear_blue;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--require {
-    color: @blue;
+    color: @miku_hear_blue;
   }
 
   &.syntax--selector {
-    color: @purple;
+    color: @miku_head_phone_pink;
   }
 
   &.syntax--separator {
@@ -248,48 +249,48 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @miku_light_yellow;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @purple;
+    color: @miku_head_phone_pink;
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @miku_light_yellow-darken;
   }
 
   &.syntax--italic {
-    color: @purple;
+    color: @miku_head_phone_pink;
     font-style: italic;
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @blue;
+    color: @miku_hear_blue;
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @miku_hear_green;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @miku_light_yellow-darken;
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @miku_light_yellow;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @miku_hear_green;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @miku_hear_green;
   }
 }
 
