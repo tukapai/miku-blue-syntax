@@ -1,7 +1,7 @@
 {
   "name": "miku-blue-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "this is miku color style syntax",
   "keywords": [
     "syntax",
@@ -9,7 +9,6 @@
     "miku",
     "blue",
     "VOCALOID"
-
   ],
   "repository": "https://github.com/tukapai/miku-blue-syntax",
   "license": "MIT",
