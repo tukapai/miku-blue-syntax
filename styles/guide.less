@@ -1,0 +1,23 @@
+//cursor line
+.line-number{
+    -webkit-transition: all 1.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border-left:2px solid transparent;
+    &.cursor-line{
+        color:@miku_head_phone_pink !important;
+        border-color: ligiten(@miku_head_phone_pink, 20%);
+    }
+}
+
+//highlights
+.editor .selection .region{
+    background:darken(@syntax-background-color,10%) !important;
+}
+
+.bracket-matcher .region{
+    background:darken(@syntax-background-color,8%);
+    position: absolute;
+    transform:scale(1.4);
+}

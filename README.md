@@ -1,5 +1,7 @@
 # miku-blue-syntax theme
 
-A short description of your theme.
+This is inspired theme by Miku Hatsune.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Syntax color set: 2015 magical mirai Miku
+
+![A screenshot of your theme](images/ipod_wall_miku.png)

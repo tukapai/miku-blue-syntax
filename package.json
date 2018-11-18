@@ -5,7 +5,11 @@
   "description": "this is miku color style syntax",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "miku",
+    "blue",
+    "VOCALOID"
+
   ],
   "repository": "https://github.com/atom/miku-blue-syntax",
   "license": "MIT",
